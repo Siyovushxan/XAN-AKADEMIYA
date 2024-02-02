@@ -1,9 +1,39 @@
-let bulimOne = document.getElementById('menyu-dars_item-one')
+let darslarHtml = document.querySelector(".darslar-html")
+let darslarCss = document.querySelector(".darslar-css")
+let darslarBootstrap = document.querySelector(".darslar-bootstrap")
+let darslarJs = document.querySelector(".darslar-js")
 
-function ochilish() {
-    if (bulimOne.style.display === 'none') {
-        bulimOne.style.display = 'block'
+let arr = [darslarHtml, darslarCss, darslarBootstrap, darslarJs]
+
+function DarslarHtml() {
+    if (darslarHtml.style.display === 'none') {
+        darslarHtml.style.display = 'block'
     } else {
-        bulimOne.style.display = 'none'
+        darslarHtml.style.display = 'none'
     }
 }
+
+function DarslarCss() {
+    if (darslarCss.style.display === 'none') {
+        darslarCss.style.display = 'block'
+    } else {
+        darslarCss.style.display = 'none'
+    }
+}
+
+function DarslarBootstrap() {
+    if (darslarBootstrap.style.display === 'none') {
+        darslarBootstrap.style.display = 'block'
+    } else {
+        darslarBootstrap.style.display = 'none'
+    }
+}
+
+function DarslarJs() {
+    if (darslarJs.style.display === 'none') {
+        darslarJs.style.display = 'block'
+    } else {
+        darslarJs.style.display = 'none'
+    }
+}
+

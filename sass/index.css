@@ -71,6 +71,19 @@
   letter-spacing: 0.1em;
   cursor: pointer;
 }
-#menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .menyu-dars_item-one {
+#menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-html, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-css, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-bootstrap, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-js {
   display: none;
+  background-color: rgba(17, 28, 74, 0.7);
+  width: 70%;
+  padding: 0.5em;
+  margin-left: 2em;
+}
+#menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-html li, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-css li, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-bootstrap li, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-js li {
+  list-style: none;
+  padding: 0.5em;
+}
+#menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-html li a, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-css li a, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-bootstrap li a, #menyu .menyu-left .menyu-dars .menyu-dars_items .menyu-dars_item .darslar-js li a {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
